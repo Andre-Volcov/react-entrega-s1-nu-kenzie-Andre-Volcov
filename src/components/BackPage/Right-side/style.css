@@ -1,0 +1,73 @@
+.right-side {
+  width: 37.4%;
+  height: 58.7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Resumo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.button {
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  padding: 15px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5b6166;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-active {
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  border-radius: 8px;
+  padding: 15px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.button-active:hover {
+  cursor: pointer;
+}
+
+.Vazio {
+  margin-top: 3.5vh;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #5b6166;
+}
+
+.imgList {
+  max-width: 100%;
+}

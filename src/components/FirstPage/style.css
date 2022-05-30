@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.firstPage {
+  background-color: #212529;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: inline;
+}
+
+.nu {
+  color: #fd377e;
+}
+
+.Kenzie {
+  color: #ffffff;
+  font-family: "Nunito";
+}
+
+.h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66%;
+  height: 76%;
+}
+
+.Kenzie-div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.iniciar-Button {
+  width: 62%;
+  height: 8%;
+  background-color: #fd377e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.iniciar-Button:hover {
+  cursor: pointer;
+}
+
+.big-Ball {
+  display: flex;
+  width: 60%;
+  height: 40vw;
+  background: rgba(224, 100, 204, 0.05);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.medium-Ball {
+  display: flex;
+  width: 87%;
+  height: 87%;
+  background: rgba(224, 100, 204, 0.075);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-Ball {
+  display: flex;
+  width: 87%;
+  height: 87%;
+  background: rgba(224, 100, 204, 0.1);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.big-Rectangle {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 83%;
+  background: #ffffff;
+  border-radius: 3.62137px;
+  gap: 3.5%;
+  z-index: 1;
+  position: absolute;
+}
+
+.mini-Red-Ball {
+  margin-top: 3%;
+  background-color: #fd377e;
+  width: 2.3%;
+  height: 1.6%;
+  border-radius: 50%;
+}
+
+.mini-Green-Ball {
+  margin-top: 3%;
+  background-color: #66c085;
+  width: 2.3%;
+  height: 1.6%;
+  border-radius: 50%;
+}
+
+.mini-Black-Ball {
+  margin-top: 3%;
+  margin-right: 4%;
+  background-color: #000000;
+  width: 2.3%;
+  height: 1.6%;
+  border-radius: 50%;
+}
+
+.green-Rectangle {
+  display: flex;
+  align-self: center;
+  height: 22%;
+  width: 74%;
+  background: #ffffff;
+  box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.25);
+  border-radius: 3.62137px;
+  z-index: 3;
+  position: absolute;
+  margin-left: 0px;
+  left: 0px;
+  right: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.red-Rectangle {
+  display: flex;
+  width: 54%;
+  height: 16%;
+  background: #ffffff;
+  box-shadow: 0px 2.67961px 26.7961px rgba(0, 0, 0, 0.25);
+  border-radius: 2.67961px;
+  z-index: 4;
+  position: absolute;
+  right: 13%;
+  bottom: 31%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mini-Red-Rectangle {
+  background: #fd377e;
+  border-radius: 3.62137px;
+  width: 19%;
+  height: 64%;
+  margin-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-Green-Rectangle {
+  background: #66c085;
+  border-radius: 2.67961px;
+  width: 19%;
+  height: 61%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-Red-Rectangle-Details1 {
+  display: flex;
+  flex-direction: column;
+  border: #ffffff 1px solid;
+  width: 31%;
+  height: 15%;
+  border-radius: 2px;
+}
+
+.mini-Green-Rectangle-Details1 {
+  display: flex;
+  flex-direction: column;
+  border: #ffffff 1px solid;
+  width: 35%;
+  height: 23%;
+  border-radius: 2px;
+}
+
+.mini-Red-Rectangle-Details2 {
+  border-bottom: #ffffff 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  height: 27.25%;
+  border-radius: 2px;
+}
+
+.mini-Green-Rectangle-Details2 {
+  border-bottom: #ffffff 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  height: 27.25%;
+  border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+  .Box {
+    width: 90%;
+  }
+  .big-Ball {
+    width: 40%;
+  }
+
+  .Kenzie-div {
+    width: 60%;
+  }
+}
